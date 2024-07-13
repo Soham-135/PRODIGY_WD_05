@@ -1,0 +1,86 @@
+/* https://www.saga.co.uk/contentlibrary/saga/publishing/verticals/technology/apps/shutterstock_240459751.jpg */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bg{
+    background-image: url("https://wallpaperaccess.com/full/5466358.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo{
+    color: white;
+    height: 20vh;
+    text-align: center;
+    font-size: 200px;
+    -webkit-text-stroke: 2px black;
+}
+
+.main{
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form{
+    background: #bde0feb4;
+    height: 25vh;
+    width: 60vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5vh;
+    box-shadow: 10px 10px color(black);
+    border: 2px solid black;
+}
+
+.city_name{
+    width: 90%;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.459);
+    font-size: 25px;
+    border-radius: 10px;
+    color: black;
+}
+
+.Search{
+    width: 60%;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.Search:hover{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.359);
+}
+
+.result{
+    background: #bde0feb4;
+    height: 30vh;
+    width: 60vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 10px 10px color(black);
+    border: 2px solid black;
+}
+
+.op{
+    background: transparent;
+    font-size: 30px;
+}
+.hide{
+    display: none;
+}
